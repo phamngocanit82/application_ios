@@ -1,0 +1,192 @@
+PODS:
+  - AESCrypt (0.0.1)
+  - Alamofire (5.6.4)
+  - CryptoSwift (1.7.0)
+  - DGActivityIndicatorView (2.1.1)
+  - FBAEMKit (16.0.1):
+    - FBSDKCoreKit_Basics (= 16.0.1)
+  - FBSDKCoreKit (16.0.1):
+    - FBAEMKit (= 16.0.1)
+    - FBSDKCoreKit_Basics (= 16.0.1)
+  - FBSDKCoreKit_Basics (16.0.1)
+  - FBSDKLoginKit (16.0.1):
+    - FBSDKCoreKit (= 16.0.1)
+  - FirebaseAppCheckInterop (10.9.0)
+  - FirebaseAuth (10.7.0):
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GTMSessionFetcher/Core (< 4.0, >= 2.1)
+  - FirebaseAuthInterop (10.9.0)
+  - FirebaseCore (10.7.0):
+    - FirebaseCoreInternal (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Logger (~> 7.8)
+  - FirebaseCoreExtension (10.9.0):
+    - FirebaseCore (~> 10.0)
+  - FirebaseCoreInternal (10.7.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - FirebaseDatabase (10.7.0):
+    - FirebaseCore (~> 10.0)
+    - leveldb-library (~> 1.22)
+  - FirebaseInstallations (10.8.0):
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - PromisesObjC (~> 2.1)
+  - FirebaseMessaging (10.8.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleDataTransport (~> 9.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Reachability (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseStorage (10.9.0):
+    - FirebaseAppCheckInterop (~> 10.0)
+    - FirebaseAuthInterop (~> 10.0)
+    - FirebaseCore (~> 10.0)
+    - FirebaseCoreExtension (~> 10.0)
+    - GTMSessionFetcher/Core (< 4.0, >= 2.1)
+  - GDataXML-HTML (1.4.1)
+  - GoogleDataTransport (9.2.2):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleMaps (7.4.0):
+    - GoogleMaps/Maps (= 7.4.0)
+  - GoogleMaps/Base (7.4.0)
+  - GoogleMaps/Maps (7.4.0):
+    - GoogleMaps/Base
+  - GoogleUtilities/AppDelegateSwizzler (7.11.1):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.11.1):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.11.1):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (7.11.1):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.11.1)"
+  - GoogleUtilities/Reachability (7.11.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.11.1):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (3.1.0)
+  - leveldb-library (1.22.2)
+  - nanopb (2.30909.0):
+    - nanopb/decode (= 2.30909.0)
+    - nanopb/encode (= 2.30909.0)
+  - nanopb/decode (2.30909.0)
+  - nanopb/encode (2.30909.0)
+  - NSHash (1.2.0)
+  - PromisesObjC (2.2.0)
+  - SDWebImage (5.15.5):
+    - SDWebImage/Core (= 5.15.5)
+  - SDWebImage/Core (5.15.5)
+  - SQLCipher (4.5.3):
+    - SQLCipher/standard (= 4.5.3)
+  - SQLCipher/common (4.5.3)
+  - SQLCipher/standard (4.5.3):
+    - SQLCipher/common
+  - SQLite.swift/SQLCipher (0.15.3):
+    - SQLCipher (>= 4.0.0)
+  - SSZipArchive (2.4.3)
+  - TouchJSON (1.1)
+
+DEPENDENCIES:
+  - AESCrypt
+  - Alamofire
+  - CryptoSwift
+  - DGActivityIndicatorView
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FirebaseAuth
+  - FirebaseCore
+  - FirebaseDatabase
+  - FirebaseMessaging
+  - FirebaseStorage
+  - GDataXML-HTML
+  - GoogleMaps
+  - NSHash
+  - SDWebImage
+  - SQLite.swift/SQLCipher
+  - SSZipArchive
+  - TouchJSON
+
+SPEC REPOS:
+  trunk:
+    - AESCrypt
+    - Alamofire
+    - CryptoSwift
+    - DGActivityIndicatorView
+    - FBAEMKit
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - FBSDKLoginKit
+    - FirebaseAppCheckInterop
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseCoreExtension
+    - FirebaseCoreInternal
+    - FirebaseDatabase
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - FirebaseStorage
+    - GDataXML-HTML
+    - GoogleDataTransport
+    - GoogleMaps
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - leveldb-library
+    - nanopb
+    - NSHash
+    - PromisesObjC
+    - SDWebImage
+    - SQLCipher
+    - SQLite.swift
+    - SSZipArchive
+    - TouchJSON
+
+SPEC CHECKSUMS:
+  AESCrypt: 1d89bf8b0789cf274ab2205ea461adbe9321d5f8
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  CryptoSwift: e71dbe5bbb7a945e365d4b9034dbccf28d033a8f
+  DGActivityIndicatorView: ff2c76073d79692f724863c8dd38685866a03cb6
+  FBAEMKit: daac7466b918752f020345be5c7d9787f98cfc07
+  FBSDKCoreKit: 2cb033464b2134af0138f87d20b859eb3f9be359
+  FBSDKCoreKit_Basics: d37280da2e65872f0e931d15f45d97ea324fec37
+  FBSDKLoginKit: c47a3b90920702487b10b647c63520dc2676dad9
+  FirebaseAppCheckInterop: e69dde5cd51b88ee1b4339d6766b691272256f9b
+  FirebaseAuth: dd64c01631df724b09f33e584625775c52f7d71f
+  FirebaseAuthInterop: e53c08e60a02de17d1ab77c5032db8ae22d3a799
+  FirebaseCore: e317665b9d744727a97e623edbbed009320afdd7
+  FirebaseCoreExtension: d3e9bba2930a8033042112397cd9f006a1bb203d
+  FirebaseCoreInternal: 8845798510aae74703467480f71ac613788d0696
+  FirebaseDatabase: 06195bac336b5e4c893ec04a111631a4cdb00178
+  FirebaseInstallations: b2a05a3fe707df764345d68685534d07d0664af3
+  FirebaseMessaging: 16c395d01ecd269357c5b86abe662851fff98236
+  FirebaseStorage: 075a0c10ec43f24193018c539d65e991db65d9ef
+  GDataXML-HTML: a4f11079b48d9fe96ff1fe478943a317185227e2
+  GoogleDataTransport: 8378d1fa8ac49753ea6ce70d65a7cb70ce5f66e6
+  GoogleMaps: 032f676450ba0779bd8ce16840690915f84e57ac
+  GoogleUtilities: 9aa0ad5a7bc171f8bae016300bfcfa3fb8425749
+  GTMSessionFetcher: c9e714f7eec91a55641e2bab9f45fd83a219b882
+  leveldb-library: f03246171cce0484482ec291f88b6d563699ee06
+  nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
+  NSHash: 036c03781d372c288d332b512b203e7bb832e46e
+  PromisesObjC: 09985d6d70fbe7878040aa746d78236e6946d2ef
+  SDWebImage: fd7e1a22f00303e058058278639bf6196ee431fe
+  SQLCipher: 57fa9f863fa4a3ed9dd3c90ace52315db8c0fdca
+  SQLite.swift: 8d054987f02728cc912b0eb5a9659650573a65a2
+  SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
+  TouchJSON: 39be3595ebe489095311d97ce0c824417324cb74
+
+PODFILE CHECKSUM: 768705b73ab314a881569106b855d4217c76efa9
+
+COCOAPODS: 1.15.2
